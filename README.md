@@ -12,4 +12,11 @@ project aims to develop and implement a machine learning model in the field of c
 This project not only creates an innovative technological solution, but is also humanitarian in nature as it can help in detecting lung cancer at an early stage, which in turn can improve the cure rate and quality of life of patients. With this project, we hope to make a positive contribution to the prevention and control of lung cancer, bringing positive impacts in the medical world and public health at large.
 
 # Working Method
-this machine learning build by Artificial Neural Network (ANN) specifies as computer vision. for this machine learning i used 
+this machine learning build by Artificial Neural Network (ANN) specifies as computer vision. for this machine learning i used sequential model from `tensorflow.keras`. The reason for using the sequential method lies in our goal of using this machine learning model specifically, namely to create machine learning that can distinguish types of lung cancer based on the characteristics of the lung condition itself. Another reason for using the sequential model is because this modeling is simple and also the dataset conditions that are owned for each type of cancer are not many.
+
+- ## Dataset:
+    The dataset used in this project is obtained from an online source (kaggle) where there are 4 labels used `Squamous Cell Carcinoma`, `Adenocarcinoma`, `Normal Lung`, and `Large Cell Carcinoma`. each label has different characteristics.
+
+    characteristics for `Squamous Cell Carcinoma` are 
+    
+    
